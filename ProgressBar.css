@@ -1,0 +1,45 @@
+.progress-bar {
+    width: 300px;
+    height: 20px;
+    background-color: lightgray;
+    position: relative;
+}
+
+.progress {
+    width: 0%;
+    height: 100%;
+    background-color: green;
+    position: absolute;
+}
+
+.progress-percent {
+    color: black;
+}
+
+.controls {
+    margin-top: 20px;
+}
+.button-style {
+    background-color:green;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.button-style:active {
+    background-color: #06f00e;
+}
+.input-style {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
